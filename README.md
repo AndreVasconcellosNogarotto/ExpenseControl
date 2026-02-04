@@ -10,6 +10,11 @@ Sistema desenvolvido para controle de gastos residenciais, permitindo gerenciar 
 - **React Router** - Roteamento
 - **CSS Modules** ou **Tailwind CSS** - Estilização
 
+### Tecnologia Utiliza
+
+- [Node.js 18+](https://nodejs.org/)
+- [Visual code](https://code.visualstudio.com/download)
+
 ## 🏗️ Arquitetura - Componentes
 
 frontend/src/
