@@ -1,4 +1,4 @@
-# Sistema de Controle de Gastos Residenciais
+# Sistema de Controle de Gastos Residenciais - Backend
 
 ## 📋 Visão Geral
 
@@ -8,7 +8,6 @@ Sistema desenvolvido para controle de gastos residenciais, permitindo gerenciar 
 
 O projeto segue **Clean Architecture** com separação em 4 camadas:
 
-```
 ExpenseControl/
 ├── backend/
 │   ├── src/
@@ -19,23 +18,19 @@ ExpenseControl/
 │   └── ExpenseControl.sln
 └── frontend/
     └── expense-control-app             # React + TypeScript
-```
+
 
 ## 🚀 Tecnologias Utilizadas
 
 ### Backend
 - **.NET 8** - Framework principal
 - **Entity Framework Core 8** - ORM
-- **PostgreSQL** - Banco de dados
+- **SQL Server** - Banco de dados
 - **MediatR** - CQRS pattern
 - **FluentValidation** - Validação de dados
 - **Swagger/OpenAPI** - Documentação da API
 
-### Frontend
-- **React 18** com **TypeScript**
-- **Axios** - Requisições HTTP
-- **React Router** - Roteamento
-- **CSS Modules** ou **Tailwind CSS** - Estilização
+
 
 ## 📦 Pré-requisitos
 
@@ -47,7 +42,7 @@ ExpenseControl/
 
 ## ⚙️ Configuração do Ambiente
 
-### 1. Banco de Dados PostgreSQL
+### 1. Banco de Dados SQL Server
 
 ```sql
 -- Criar banco de dados
@@ -95,15 +90,7 @@ dotnet run --project src/ExpenseControl.API
 A API estará disponível em: `https://localhost:5001` ou `http://localhost:5000`
 Swagger UI: `https://localhost:5001/swagger`
 
-### 3. Frontend (React)
 
-```bash
-cd frontend/expense-control-app
-npm install
-npm run dev
-```
-
-O frontend estará disponível em: `http://localhost:5173`
 
 ## 📚 Funcionalidades Implementadas
 
@@ -269,15 +256,6 @@ POST /api/transactions
 - ✅ Swagger para documentação da API
 - ✅ Migrations do Entity Framework
 
-### Frontend
-- ✅ Componentização
-- ✅ TypeScript para type safety
-- ✅ Hooks customizados
-- ✅ Gerenciamento de estado
-- ✅ Validação de formulários
-- ✅ Feedback visual para usuário (loading, erros, sucesso)
-- ✅ Responsividade
-
 ## 🐛 Tratamento de Erros
 
 A API retorna códigos HTTP apropriados:
@@ -311,5 +289,3 @@ Andre - Backend .NET Developer
 - [Entity Framework Core](https://docs.microsoft.com/ef/core/)
 - [MediatR](https://github.com/jbogard/MediatR)
 - [FluentValidation](https://fluentvalidation.net/)
-- [React Documentation](https://react.dev/)
-- [TypeScript Documentation](https://www.typescriptlang.org/)
