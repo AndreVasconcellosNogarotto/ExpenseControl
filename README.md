@@ -35,8 +35,7 @@ ExpenseControl/
 ## 📦 Pré-requisitos
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [Node.js 18+](https://nodejs.org/)
-- [PostgreSQL 15+](https://www.postgresql.org/download/)
+- [SQL Server 2025](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads))
 - Visual Studio 2022 (ou VS Code)
 - Git
 
